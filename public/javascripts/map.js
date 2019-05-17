@@ -18,7 +18,7 @@ var drawMap = function() {
   });
   L.popup()
       .setLatLng([48.42623893795082, -123.35449218750001])
-      .setContent('<h1>Welcome to Forks & Knives Victoria </h1><h3>Use this map to find restaurants in Victoria. Click on a pin to learn more about a restaurant. </h3><p>Data derived from Business License 2018 dataset courtesy of: http://opendata.victoria.ca. This dataset was filtered for redistribution by this Express API: </p>')
+      .setContent('<h1>Welcome to Forks & Knives Victoria </h1><h3>Use this map to find restaurants in Victoria. Click on a pin to learn more about a restaurant. </h3><p>Data derived from Business License 2018 dataset courtesy of: http://opendata.victoria.ca. This dataset was filtered for redistribution by this Express API:https://salty-thicket-52158.herokuapp.com/poi </p>')
       .openOn(map);
 
   return {
