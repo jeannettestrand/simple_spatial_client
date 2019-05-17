@@ -44,7 +44,7 @@ var drawMap = function() {
 }
 
 var map = drawMap();
-fetchIt("http://localhost:3000/poi", map.setFeatures)
+fetchIt("https://salty-thicket-52158.herokuapp.com/poi", map.setFeatures)
 
 function fetchIt (url, callback) {
   var xhttp = new XMLHttpRequest();
